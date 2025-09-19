@@ -1,0 +1,88 @@
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px
+    padding: 20px;
+    background: #FFF8DC
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#navigation {
+    display: flex;
+    gap: 200px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+
+h1 {
+    color: #ff6a2a;
+    text-align: center;
+}
+
+div {
+    background: #FFF
+}
+
+
+
+.button {
+    background-color: #F15525;
+    border-radius: 82px;
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 20px;
+    border: 0;
+}
+
+#courses {
+    padding: 40px 50px;
+    background: #fff;
+
+}
+
+.cards-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.card {
+    padding: 40px 50px;
+    background: #00a8f3;
+    color: #FFF;
+}
+
+#education-title {
+    color: #ff6a2a;
+}
+
+#reviews {
+    padding: 40px 50px;
+    background: #fff;
+}
+
+#contacts-title {
+    color: #ff6a2a;
+}
+
+#contacts {
+    padding: 40px 50px;
+    color: #FFF;
+    background: #00a8f3;
+}
+
+#index {
+    padding: 40px 50px;
+    color: #FFF;
+    background: #00a8f3;
+    text-align: center
+}
+
