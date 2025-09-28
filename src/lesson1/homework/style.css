@@ -1,9 +1,9 @@
 nav {
     display: flex;
     align-items: center;
-    gap: 40px
+    gap: 40px;
     padding: 20px;
-    background: #FFF8DC
+    background: #FFF8DC;
 }
 
 nav a {
@@ -85,4 +85,25 @@ div {
     background: #00a8f3;
     text-align: center
 }
+
+#news {
+    padding: 40px 50px;
+    background: #00a8f3;
+    text-align: center
+}
+
+#news-container {
+    margin: 20px 0;
+
+}
+
+.news-card {
+    padding: 15px;
+    margin: 10px auto;
+    background: #FFF;
+    border-radius: 8px;
+    text-align: left;
+}
+
+
 
