@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [10/Oct/2025:00:44:19 +0300] "GET /test HTTP/1.1" 500 3300 http-bio-8080-exec-1 38
+0:0:0:0:0:0:0:1 - - [10/Oct/2025:00:49:01 +0300] "GET /test HTTP/1.1" 200 173 http-bio-8080-exec-1 39
+0:0:0:0:0:0:0:1 - - [10/Oct/2025:00:55:18 +0300] "GET /index HTTP/1.1" 200 2911 http-bio-8080-exec-1 43
+0:0:0:0:0:0:0:1 - - [10/Oct/2025:00:55:18 +0300] "GET /style.css HTTP/1.1" 200 3360 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [10/Oct/2025:00:55:18 +0300] "GET /index.js HTTP/1.1" 200 3886 http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [10/Oct/2025:00:55:18 +0300] "GET /images/logo.png HTTP/1.1" 200 593842 http-bio-8080-exec-2 9
+0:0:0:0:0:0:0:1 - - [10/Oct/2025:00:55:18 +0300] "GET /images/icon.png HTTP/1.1" 200 951192 http-bio-8080-exec-7 10
+0:0:0:0:0:0:0:1 - - [10/Oct/2025:00:55:24 +0300] "GET /courses.html HTTP/1.1" 200 4476 http-bio-8080-exec-8 1
+0:0:0:0:0:0:0:1 - - [10/Oct/2025:00:55:24 +0300] "GET /images/card1.jpeg HTTP/1.1" 200 526052 http-bio-8080-exec-9 7
+0:0:0:0:0:0:0:1 - - [10/Oct/2025:00:55:24 +0300] "GET /images/card3.jpeg HTTP/1.1" 200 454280 http-bio-8080-exec-4 5
+0:0:0:0:0:0:0:1 - - [10/Oct/2025:00:55:24 +0300] "GET /images/card2.jpeg HTTP/1.1" 200 731134 http-bio-8080-exec-6 10
+0:0:0:0:0:0:0:1 - - [10/Oct/2025:00:55:26 +0300] "GET /reviews.html HTTP/1.1" 200 5852 http-bio-8080-exec-6 2
