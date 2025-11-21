@@ -1,0 +1,69 @@
+<%@ page isELIgnored="false" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ЧИСТЫЙ ХОЛСТ</title>
+    <link rel="icon" href="${pageContext.request.contextPath}/images/icon.png" type="image/png">
+    <link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <header>
+        <nav>
+            <a href="/index">
+                <img src="${pageContext.request.contextPath}/images/logo.png" height="100">
+            </a>
+            <ul id="navigation">
+                <li><a href="${pageContext.request.contextPath}/index">Главная</a></li>
+                <li class="menu"><a href="${pageContext.request.contextPath}/courses">Курсы</a>
+                    <div class="menu-content">
+                        <a href="${pageContext.request.contextPath}/courses#beginner">От Каракуля к Шедевру</a>
+                        <a href="${pageContext.request.contextPath}/courses#watercolor">Акварельная Магия</a>
+                        <a href="${pageContext.request.contextPath}/courses#comics">Комиксы с Нуля</a>
+                        <a href="${pageContext.request.contextPath}/courses#portrait">Искусство портрета</a>
+                    </div>
+                </li>
+                <li><a href="${pageContext.request.contextPath}/reviews">Отзывы</a></li>
+                <li><a href="${pageContext.request.contextPath}/contacts">Контакты</a></li>
+            </ul>
+            <button id="currentTheme" class="button">Переключить тему</button>
+            <a href="/cart">
+                <img src="${pageContext.request.contextPath}/images/cart.jpeg" height="100">
+            </a>
+        </nav>
+    </header>
+    <h1>ЧИСТЫЙ ХОЛСТ</h1>
+    <div id="index">
+
+
+        <img src="https://avatars.mds.yandex.net/i?id=a965fff38f01dfd6cebd33b09f8d3d4d1340e1f3-16281999-images-thumbs&n=13">
+        <p>🖌️ Живопись — теперь ближе, чем когда-либо!</p>
+        <p>У нас вы найдёте: бесплатные вебинары, пошаговые курсы, библиотеку техник и поддержку сообщества.</p>
+        <p>Мечтаете писать картины, но не хотите в вуз? Мы покажем, как начать - бесплатно и без сложностей. Переходите по ссылке</p>
+        <a href="https://www.youtube.com/watch?v=bY2jYShjcBA&pp=ygUv0LzQsNGB0YLQtdGAINC60LvQsNGB0YEg0L_QviDRgNC40YHQvtCy0LDQvdC40Y4%3D">
+            <button class="button">Ссылка на вебинар</button>
+        </a>
+
+
+        <div id="timer">
+            <h3>До начала вебинара осталось:</h3>
+            <span id="days">25</span> дней
+            <span id="hours">19</span> часов
+            <span id="minutes">39</span> минут
+            <span id="seconds">29</span> секунд
+        </div>
+
+    </div>
+
+    <div id="news">
+        <h1>Наши новости</h1>
+        <div id="news-container">
+
+        </div>
+        <button id="add-news" class="button">Добавить новость</button>
+
+    </div>
+    <script src="${pageContext.request.contextPath}/js/index.js"></script>
+</body>
+</html>
